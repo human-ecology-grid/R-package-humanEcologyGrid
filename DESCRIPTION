@@ -1,0 +1,28 @@
+Package: humanEcologyGrid
+Title: Human Ecology Grid Database
+Version: 0.0.0.9000
+Author@R:
+    person("Taras", "Zakharko", , "taras.zakharko@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7601-8424"))
+Description: Human Ecology Grid is a comprehensive multi-domain spatial database for environmental and
+  socioeconomic research. It integrates data from multiple sources on a multi-resolution equal-area geodesic grid,
+  providing easy-to-use aggregations. The data domains span climate, human footprint, terrain and landcover, linguistic
+  territories, economic output, nighttime lights, ethnic groups power relations, and more. Panel data is provided annually
+  for years 1981-2023 (where available), with an additional most recent data snapshot. The full descriptions of
+  data sources and aggregations are available. Please always cite the original data when using the aggregations in your work.
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.5.0)
+Imports:
+    arrow (>= 21.0.0),
+    Matrix (>= 1.7.0),
+    rlang (>= 1.1.6),
+    sf (>= 1.0-20),
+    tibble (>= 3.3.0),
+    yyjsonr (>= 0.1.21)
+Suggests:
+    s2 (>= 1.1.9),
+    tidyselect (>= 1.2.1)
